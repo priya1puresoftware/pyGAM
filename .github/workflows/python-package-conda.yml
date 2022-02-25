@@ -59,4 +59,5 @@ jobs:
               conda install pytest numpy pandas scipy pytest-cov cython && \
               pip install --upgrade pip && \
               pip install -r requirements.txt && \
+              pytest && \
               deactivate'
